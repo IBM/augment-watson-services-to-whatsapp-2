@@ -52,7 +52,7 @@ When you have completed this code pattern, you will understand how to:
 2. [Create Watson services](#2-create-watson-services).
     - [2.1. Watson Visual Recognition](#22-watson-visual-recognition).
 3. [Create serverless cloud functions](#3-create-serverless-cloud-functions).
-4. [Deploy the Server Application on IBM Cloud Foundry, Create Twilio service & Configure credentials **_(Completed in previous code pattern)_**](#4-deploy-the-server-application-on-ibm-cloud-foundry-create-twilio-service-&-configure-credentials).
+4. [Deploy the Server Application on IBM Cloud Foundry, Create Twilio service & Configure credentials **_(Completed in previous code pattern)_**](#4-deploy-the-server-application-on-ibm-cloud-foundry-create-twilio-service--configure-credentials).
 
 
 ### 1. Clone the repo
