@@ -15,7 +15,7 @@ When you have completed this code pattern, you will understand how to:
 <!--add an image in this path-->
 ![architecture](doc/source/images/architecture.png)
 
-<!--Optionally, add flow steps based on the architecture diagram-->
+
 ## Flow
 
 1. User sends a message to WhatsApp.
@@ -35,7 +35,7 @@ When you have completed this code pattern, you will understand how to:
 8. The user will receive this as a response from Watson Visual Recognition service on WhatsApp.
 
 <!--Optionally, update this section when the video is created-->
-# Watch the Video
+<!-- # Watch the Video -->
 
 <!--[![video](http://img.youtube.com/vi/Jxi7U7VOMYg/0.jpg)](https://www.youtube.com/watch?v=Jxi7U7VOMYg)-->
 
@@ -129,13 +129,9 @@ IBM Cloud Function is a Serverless Architecture where in a user can write a snip
 
 ![wvr-credentials-in-backend-app](doc/source/images/addingWvrCredentials.gif)
 
-- At this point, you have successfully configured the backend for WhatsApp to communicate with Watson services through Twilio messaging service as Inter-mediator.
-
 - At this point, all the setup is completed and now its time to explore what you just built!
 
 # Sample output
-
-- Once the model is deployed and ready to use, the **View Application in Action** panel will be visible in the Application.
 
 ![](doc/source/images/whatsappQR.png)
 
@@ -157,7 +153,7 @@ User|Reply|Screenshot
 ---|---|---
 Hi | The message, 'Hi' that you typed on your phone, went through Whatsapp -> Twilio -> Python App hosted on IBM Cloud and returned back to you from Python App hosted on IBM Cloud -> Twilio -> Whatsapp. How Cool is that!! Try asking <b>What can you do?</b> | ![1](doc/source/images/whatsappss/2.PNG)
 What can you do? | I am a bot who is connected to watson services on IBM Cloud! Try asking <b>What are the services you are connected to?</b> | ![2](doc/source/images/whatsappss/3.PNG)
-What are the services you are connected to? | I found the following services associated to me: 1. Watson Machine Learning -> *ready* Enter the number to know more. | ![3](doc/source/images/whatsappss/4.PNG)
+What are the services you are connected to? | I found the following services associated to me: 1. Watson Machine Learning -> ready 2. Watson Visual Recognition -> No Custom Model Deployed Enter the number to know more. | ![3](doc/source/images/whatsappss/4.PNG)
 2 | Send any food image from your Camera or Gallery to classify the food with Watson Visual Recognition | ![4](doc/source/images/whatsappss/5.PNG)
 \<image of pasta\> | Classified as pasta salad with an accuracy of 71.1% | ![5](doc/source/images/whatsappss/6.PNG)
 \<image of an ice cream\> | Classified as sundae with an accuracy of 87.0% | ![5](doc/source/images/whatsappss/7.PNG)
