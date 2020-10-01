@@ -1,5 +1,5 @@
 ### !Documentation in progress
-# Augment IBM Watson Services to WhatsApp
+# Augment Watson Visual Recognition Services to WhatsApp
 
 **Note: This is a Composite Code Pattern and it requires you to have completed the [Augment IBM Watson Services to WhatsApp](https://github.com/IBM/augment-watson-services-to-whatsapp) code pattern before proceeding.**
 
